@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Explosive Enhancement BP",
+        "description": "Enhanced explosion logic",
+        "uuid": "4f2a7b1c-8d3e-4f5a-9b6c-7d8e9f0a1b2c",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "JavaScript logic",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "6f4c9d3e-0a5b-4c7c-9d8e-0f1a2b3c4d5e",
+            "version": [1, 0, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0"
+        }
+    ]
+}
