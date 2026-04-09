@@ -2,30 +2,9 @@
   "resource_pack_name": "ExplosiveEnhancement",
   "texture_name": "atlas.particles",
   "texture_data": {
-    "ee:blastwave_animation": {
-      "textures": [
-        "textures/particle/blastwave1",
-        "textures/particle/blastwave2",
-        "textures/particle/blastwave3",
-        "textures/particle/blastwave4",
-        "textures/particle/blastwave5",
-        "textures/particle/blastwave6",
-        "textures/particle/blastwave7",
-        "textures/particle/blastwave8",
-        "textures/particle/blastwave9",
-        "textures/particle/blastwave10",
-        "textures/particle/blastwave11",
-        "textures/particle/blastwave12",
-        "textures/particle/blastwave13",
-        "textures/particle/blastwave14",
-        "textures/particle/blastwave15",
-        "textures/particle/blastwave16",
-        "textures/particle/blastwave17",
-        "textures/particle/blastwave18",
-        "textures/particle/blastwave19",
-        "textures/particle/blastwave20",
-        "textures/particle/blastwave21"
-      ]
-    }
+    "ee:blastwave_anim": { "textures": ["textures/particle/blastwave1", "textures/particle/blastwave2", "textures/particle/blastwave3", "textures/particle/blastwave4", "textures/particle/blastwave5", "textures/particle/blastwave6", "textures/particle/blastwave7", "textures/particle/blastwave8", "textures/particle/blastwave9", "textures/particle/blastwave10", "textures/particle/blastwave11", "textures/particle/blastwave12", "textures/particle/blastwave13", "textures/particle/blastwave14", "textures/particle/blastwave15", "textures/particle/blastwave16", "textures/particle/blastwave17", "textures/particle/blastwave18", "textures/particle/blastwave19", "textures/particle/blastwave20", "textures/particle/blastwave21"] },
+    "ee:smoke_anim": { "textures": ["textures/particle/smoke1", "textures/particle/smoke2", "textures/particle/smoke3", "textures/particle/smoke4", "textures/particle/smoke5", "textures/particle/smoke6", "textures/particle/smoke7", "textures/particle/smoke8", "textures/particle/smoke9", "textures/particle/smoke10", "textures/particle/smoke11", "textures/particle/smoke12"] },
+    "ee:fireball_anim": { "textures": ["textures/particle/fireball1", "textures/particle/fireball2", "textures/particle/fireball3", "textures/particle/fireball4", "textures/particle/fireball5", "textures/particle/fireball6", "textures/particle/fireball7", "textures/particle/fireball8", "textures/particle/fireball9"] },
+    "ee:bubble": { "textures": ["textures/particle/bubble"] }
   }
 }
