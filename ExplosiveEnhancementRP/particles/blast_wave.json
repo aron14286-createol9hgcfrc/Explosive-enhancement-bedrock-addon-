@@ -1,1 +1,3 @@
 
+// inside your spawn function:
+dimension.spawnParticle("ee:blast_wave", pos);
