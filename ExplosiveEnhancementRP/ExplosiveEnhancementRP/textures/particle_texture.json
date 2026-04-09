@@ -1,0 +1,31 @@
+{
+  "resource_pack_name": "ExplosiveEnhancement",
+  "texture_name": "atlas.particles",
+  "texture_data": {
+    "ee:blastwave_animation": {
+      "textures": [
+        "textures/particle/blastwave1",
+        "textures/particle/blastwave2",
+        "textures/particle/blastwave3",
+        "textures/particle/blastwave4",
+        "textures/particle/blastwave5",
+        "textures/particle/blastwave6",
+        "textures/particle/blastwave7",
+        "textures/particle/blastwave8",
+        "textures/particle/blastwave9",
+        "textures/particle/blastwave10",
+        "textures/particle/blastwave11",
+        "textures/particle/blastwave12",
+        "textures/particle/blastwave13",
+        "textures/particle/blastwave14",
+        "textures/particle/blastwave15",
+        "textures/particle/blastwave16",
+        "textures/particle/blastwave17",
+        "textures/particle/blastwave18",
+        "textures/particle/blastwave19",
+        "textures/particle/blastwave20",
+        "textures/particle/blastwave21"
+      ]
+    }
+  }
+}
