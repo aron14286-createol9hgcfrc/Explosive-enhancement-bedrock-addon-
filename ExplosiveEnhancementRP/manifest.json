@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Explosive Enhancement RP",
+        "description": "Enhanced explosion visuals",
+        "uuid": "7a5d0e4f-1b6c-4d8d-0e9f-1a2b3c4d5e6f",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Resources",
+            "type": "resources",
+            "uuid": "8b6e1f5a-2c7d-4e9e-1f0a-2b3c4d5e6f7a",
+            "version": [1, 0, 0]
+        }
+    ]
+}
