@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:texture_set": {
+    "color": [
+      "textures/particles/blastwave1",
+      "textures/particles/blastwave2",
+      "textures/particles/blastwave3",
+      "textures/particles/blastwave4",
+      "textures/particles/blastwave5",
+      "textures/particles/blastwave6",
+      "textures/particles/blastwave7",
+      "textures/particles/blastwave8",
+      "textures/particles/blastwave9",
+      "textures/particles/blastwave10",
+      "textures/particles/blastwave11",
+      "textures/particles/blastwave12",
+      "textures/particles/blastwave13",
+      "textures/particles/blastwave14",
+      "textures/particles/blastwave15",
+      "textures/particles/blastwave16",
+      "textures/particles/blastwave17",
+      "textures/particles/blastwave18",
+      "textures/particles/blastwave19",
+      "textures/particles/blastwave20",
+      "textures/particles/blastwave21"
+    ]
+  }
+}
