@@ -2,11 +2,23 @@
   "resource_pack_name": "ExplosiveEnhancement",
   "texture_name": "atlas.particles",
   "texture_data": {
-    "ee:blastwave_anim": { "textures": ["textures/particle/blastwave1", "textures/particle/blastwave2", "textures/particle/blastwave3", "textures/particle/blastwave4", "textures/particle/blastwave5", "textures/particle/blastwave6", "textures/particle/blastwave7", "textures/particle/blastwave8", "textures/particle/blastwave9", "textures/particle/blastwave10", "textures/particle/blastwave11", "textures/particle/blastwave12", "textures/particle/blastwave13", "textures/particle/blastwave14", "textures/particle/blastwave15", "textures/particle/blastwave16", "textures/particle/blastwave17", "textures/particle/blastwave18", "textures/particle/blastwave19", "textures/particle/blastwave20", "textures/particle/blastwave21"] },
-    "ee:smoke_anim": { "textures": ["textures/particle/smoke1", "textures/particle/smoke2", "textures/particle/smoke3", "textures/particle/smoke4", "textures/particle/smoke5", "textures/particle/smoke6", "textures/particle/smoke7", "textures/particle/smoke8", "textures/particle/smoke9", "textures/particle/smoke10", "textures/particle/smoke11", "textures/particle/smoke12"] },
-    "ee:fireball_anim": { "textures": ["textures/particle/fireball1", "textures/particle/fireball2", "textures/particle/fireball3", "textures/particle/fireball4", "textures/particle/fireball5", "textures/particle/fireball6", "textures/particle/fireball7", "textures/particle/fireball8", "textures/particle/fireball9"] },
-    "ee:underwater_blastwave_anim": { "textures": ["textures/particle/underwaterblastwave1", "textures/particle/underwaterblastwave2", "textures/particle/underwaterblastwave3", "textures/particle/underwaterblastwave4", "textures/particle/underwaterblastwave5", "textures/particle/underwaterblastwave6", "textures/particle/underwaterblastwave7", "textures/particle/underwaterblastwave8", "textures/particle/underwaterblastwave9", "textures/particle/underwaterblastwave10", "textures/particle/underwaterblastwave11", "textures/particle/underwaterblastwave12", "textures/particle/underwaterblastwave13", "textures/particle/underwaterblastwave14", "textures/particle/underwaterblastwave15", "textures/particle/underwaterblastwave16", "textures/particle/underwaterblastwave17", "textures/particle/underwaterblastwave18", "textures/particle/underwaterblastwave19", "textures/particle/underwaterblastwave20", "textures/particle/underwaterblastwave21"] },
-    "ee:spark_anim": { "textures": ["textures/particle/spark1", "textures/particle/spark2", "textures/particle/spark3", "textures/particle/spark4"] },
-    "ee:bubble": { "textures": ["textures/particle/bubble"] }
+    "ee:blastwave_anim": { 
+      "textures": ["textures/particle/blastwave1", "textures/particle/blastwave2", "textures/particle/blastwave3", "textures/particle/blastwave4", "textures/particle/blastwave5", "textures/particle/blastwave6", "textures/particle/blastwave7", "textures/particle/blastwave8", "textures/particle/blastwave9", "textures/particle/blastwave10", "textures/particle/blastwave11", "textures/particle/blastwave12", "textures/particle/blastwave13", "textures/particle/blastwave14", "textures/particle/blastwave15", "textures/particle/blastwave16", "textures/particle/blastwave17", "textures/particle/blastwave18", "textures/particle/blastwave19", "textures/particle/blastwave20", "textures/particle/blastwave21"] 
+    },
+    "ee:smoke_anim": { 
+      "textures": ["textures/particle/smoke1", "textures/particle/smoke2", "textures/particle/smoke3", "textures/particle/smoke4", "textures/particle/smoke5", "textures/particle/smoke6", "textures/particle/smoke7", "textures/particle/smoke8", "textures/particle/smoke9", "textures/particle/smoke10", "textures/particle/smoke11", "textures/particle/smoke12"] 
+    },
+    "ee:fireball_anim": { 
+      "textures": ["textures/particle/fireball1", "textures/particle/fireball2", "textures/particle/fireball3", "textures/particle/fireball4", "textures/particle/fireball5", "textures/particle/fireball6", "textures/particle/fireball7", "textures/particle/fireball8", "textures/particle/fireball9"] 
+    },
+    "ee:underwater_blast_anim": { 
+      "textures": ["textures/particle/underwaterblastwave1", "textures/particle/underwaterblastwave2", "textures/particle/underwaterblastwave3", "textures/particle/underwaterblastwave4", "textures/particle/underwaterblastwave5", "textures/particle/underwaterblastwave6", "textures/particle/underwaterblastwave7", "textures/particle/underwaterblastwave8", "textures/particle/underwaterblastwave9", "textures/particle/underwaterblastwave10", "textures/particle/underwaterblastwave11", "textures/particle/underwaterblastwave12", "textures/particle/underwaterblastwave13", "textures/particle/underwaterblastwave14", "textures/particle/underwaterblastwave15", "textures/particle/underwaterblastwave16", "textures/particle/underwaterblastwave17", "textures/particle/underwaterblastwave18", "textures/particle/underwaterblastwave19", "textures/particle/underwaterblastwave20", "textures/particle/underwaterblastwave21"] 
+    },
+    "ee:spark_anim": { 
+      "textures": ["textures/particle/spark1", "textures/particle/spark2", "textures/particle/spark3", "textures/particle/spark4"] 
+    },
+    "ee:bubble": { 
+      "textures": ["textures/particle/bubble"] 
+    }
   }
 }
