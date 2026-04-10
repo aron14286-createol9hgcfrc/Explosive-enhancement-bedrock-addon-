@@ -1,27 +1,33 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 
 world.beforeEvents.explosion.subscribe((event) => {
   const { source, dimension } = event;
 
-  if (!source) return; // in case explosion has no source
+  // Exit if there is no source entity (like a bed explosion)
+  if (!source) return;
 
-  const pos = source.location;
-  const blockPos = {
-    x: Math.floor(pos.x),
-    y: Math.floor(pos.y),
-    z: Math.floor(pos.z),
-  };
+  // Capture the location while the entity still exists
+  const pos = { x: source.location.x, y: source.location.y, z: source.location.z };
 
-  const block = dimension.getBlock(blockPos);
-  const inWater =
-    block?.typeId === "minecraft:water" ||
-    block?.typeId === "minecraft:flowing_water";
+  // Use system.run to move from 'read-only' before-event mode 
+  // to 'read-write' mode so we can spawn particles
+  system.run(() => {
+    const blockPos = {
+      x: Math.floor(pos.x),
+      y: Math.floor(pos.y),
+      z: Math.floor(pos.z),
+    };
 
-  if (inWater) {
-    spawnUnderwaterEffects(dimension, pos);
-  } else {
-    spawnNormalEffects(dimension, pos);
-  }
+    const block = dimension.getBlock(blockPos);
+    // Check if the explosion happened in water
+    const inWater = block?.typeId.includes("water");
+
+    if (inWater) {
+      spawnUnderwaterEffects(dimension, pos);
+    } else {
+      spawnNormalEffects(dimension, pos);
+    }
+  });
 });
 
 function spawnNormalEffects(dim, pos) {
@@ -42,5 +48,6 @@ function spawnNormalEffects(dim, pos) {
 
 function spawnUnderwaterEffects(dim, pos) {
   dim.spawnParticle("ee:underwater_blast", { x: pos.x, y: pos.y + 0.5, z: pos.z });
-  // add any other underwater particles here
+  // Add bubbles or other underwater effects here
+  dim.spawnParticle("minecraft:water_evaporation_bucket_emitter", pos); 
 }
