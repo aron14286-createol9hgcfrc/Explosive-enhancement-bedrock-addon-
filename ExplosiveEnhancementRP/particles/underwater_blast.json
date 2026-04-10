@@ -5,7 +5,7 @@
       "identifier": "ee:underwater_blast",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "ee:underwater_blastwave_anim"
+        "texture": "ee:underwater_blast_anim"
       }
     },
     "components": {
@@ -22,9 +22,6 @@
         "size": [6.0, 6.0],
         "facing_camera_mode": "rotate_xyz",
         "texture_speed": 21
-      },
-      "minecraft:particle_appearance_tinting": {
-        "color": [1.0, 1.0, 1.0, "1.0 - (variable.particle_age / variable.particle_max_lifetime)"]
       }
     }
   }
