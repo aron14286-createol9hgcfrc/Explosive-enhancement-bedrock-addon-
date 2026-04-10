@@ -1,13 +1,20 @@
 import { world } from "@minecraft/server";
 
-world.afterEvents.explosion.subscribe((event) => {
-  const dim = event.dimension;
-  
-  // Safe position fallback - handles null source entity
-  const pos = { 
-    x: event.source?.location?.x ?? 0, 
-    y: event.source?.location?.y ?? 64, 
-    z: event.source?.location?.z ?? 0 
+world.beforeEvents.explosion.subscribe((event) => {
+  const pos = source.location
+  const dim = source.dimension;
+
+  system.run(() =>{
+    const block = dim.getBlock(pos);
+    const inWater = block?.typeId.includes("water");
+
+    if (inWater){
+      spawnUnderwaterEffects(dim, pos);
+    } else {
+      spawnNormalEffects(dim, pos);
+    }
+  });
+});
   };
   
   const blockPos = { 
