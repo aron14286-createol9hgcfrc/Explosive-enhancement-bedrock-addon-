@@ -5,7 +5,7 @@
       "identifier": "ee:blast_wave",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "ee:blastwave_anim"
+        "texture": "ee:blast_wave_anim"
       }
     },
     "components": {
