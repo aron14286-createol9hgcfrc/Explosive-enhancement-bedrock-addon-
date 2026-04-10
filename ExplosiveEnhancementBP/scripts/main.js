@@ -49,7 +49,7 @@ function spawnNormalEffects(dim, pos) {
 }
 
 function spawnUnderwaterEffects(dim, pos) {
-  dim.spawnParticle("ee:underwater_blast", {
+  dim.spawnParticle("ee:underwaterblastwave", {
     x: pos.x,
     y: pos.y + 0.5,
     z: pos.z,
